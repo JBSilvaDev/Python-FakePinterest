@@ -1,0 +1,29 @@
+# Imports do site
+- Flask:
+  - pip install flask
+  - Usado para configurar a estrutura do site
+  - render_template:
+    - Usado para deixar links dinamicos passando paramentros para a função e link html
+  - url_for:
+    - Usado para deixar os links dinamicos permitindo chamar a função que retorna a pagina no html e nao mais a rota
+- Flask SQL Alchemy
+  - pip install flask-sqlalchemy
+  - Usado para criar e gerenciar banco de dados SQL
+  - Pode ser necessario atualizar o watchdog
+    - pip install --upgrade watchdog
+- Flask Login e Bcrypt
+  - Usado para gerenciar a login e senha alem de encripitar os dados
+  - pip install flask-login
+  - pip install flask-bcrypt
+- Flask wtf
+  - Usado para criação e gerenciamento de formulario
+  - pip install flask-wtf
+- Validador
+  -  Usado para validade e-mails
+  - pip install email_validator
+- Os
+  - Usado para gerenciar os caminhos de pastas no projeto (exemplo onde salvar as imgs)
+  - Nativo python
+- Werkzeug
+  - Usado para gerenciar nomes dos arquivos, setar nomes seguros para dados enviados
+  - Nativo python
